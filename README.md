@@ -16,6 +16,7 @@ Finally, the script will return the EC2's public IP, Jenkins URL and Jenkins Unl
 
 
 ### Requirements:
+- A Linux / MacOS machine.
 - **AWS** - your machine must be preconfigured with aws-credentials (awscli  configure)
 - **Terraform** (Installation script provided)
 - **Ansible** (Installation script provided)
