@@ -1,5 +1,5 @@
 - name: kubectl Installation
-  hosts: bigInstance
+  hosts: default
   become: yes
   tasks:
     - name: install Kubectl

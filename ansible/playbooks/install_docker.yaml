@@ -1,6 +1,6 @@
 ---
 - name: Docker Installation (ALL HOSTS)
-  hosts: bigInstance
+  hosts: default
   become: yes
   tasks:
     - name: update and install docker dependencies 

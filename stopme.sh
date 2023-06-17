@@ -2,7 +2,7 @@
 
 cd terraform
 terraform destroy -auto-approve
-cd..
+cd ..
 echo "All infrastructure is down."
 echo ""
 echo "You may delete the keys in /terraform/ssh-key."

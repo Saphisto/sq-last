@@ -1,4 +1,4 @@
-- hosts: bigInstance
+- hosts: default
   tasks:
     - name: installing eksctl
       become: true
